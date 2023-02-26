@@ -1,0 +1,12 @@
+[package]
+name = "glommio-tcp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures-lite = "1.11.1"
+glommio = "0.8.0"
+apache-avro = { version = "0.14.0", features = ["zstandard"] }
+clap = { version = "4.1.6", features = ["derive"] }
